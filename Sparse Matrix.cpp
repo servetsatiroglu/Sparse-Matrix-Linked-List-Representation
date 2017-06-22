@@ -38,20 +38,20 @@ void nodes::headf(nodes* headnode ,nodes* frow, const int& tr, const int& tc, no
 
 void nodes::rheadf(nodes* rowhead,nodes* nrow, const int& nr, nodes* frnode){
 	rowhead->rhead = nrow;					//the next row head
-	rowhead->rno = nr;						//number of row
+	rowhead->rno = nr;					//number of row
 	rowhead->nrow = frnode;					//the first node in this row
 }
 
 void nodes::cheadf(nodes* colhead,nodes* fcnode, const int& nc, nodes* ncolounm){
 	colhead->ncol = fcnode;					//The first node in this coloumn
-	colhead->cno = nc;						//number of coloumn
+	colhead->cno = nc;					//number of coloumn
 	colhead->chead = ncolounm;				//the next coloumn head
 }
 
 void nodes::pathf(nodes* state, const int& nr, const int& nc, const int& val, nodes* nextcolnode, nodes* nextrownode){
-	state->rno = nr;						//number of row
-	state->cno = nc;						//number of coloumn
-	state->value = val;						//value
+	state->rno = nr;					//number of row
+	state->cno = nc;					//number of coloumn
+	state->value = val;					//value
 	state->ncol = nextcolnode;				//the next of coloumn node
 	state->nrow = nextrownode;				//the next of row node
 }
