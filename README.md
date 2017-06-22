@@ -1,9 +1,7 @@
 # Sparse-Matrix-Linked-List-Representation
 Sparse Matrix Linked List Representation
 
-Sparse Matrix is included most of elements zero.
-
-if we need to only non-zero elements, we can use sparse matrix
+if Matrix is included most of elements zero and we need to only non-zero elements, we can use sparse matrix
 
 For example we use this matrix in code.
 
