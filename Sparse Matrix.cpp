@@ -58,7 +58,7 @@ void nodes::pathf(nodes* state, const int& nr, const int& nc, const int& val, no
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	nodes* head		= new nodes;
+	nodes* head = new nodes;
 	
 	nodes* rowhead0 = new nodes;
 	nodes* rowhead1 = new nodes;
